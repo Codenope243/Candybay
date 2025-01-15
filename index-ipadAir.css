@@ -1,0 +1,750 @@
+@media only screen 
+  and (min-device-width:820px) 
+  and (max-device-width:1180px) 
+  and (min-device-height:820px)
+  and (max-device-height:1180px)
+  and (orientation: landscape)
+ {
+
+    body{
+        overflow: hidden;
+        margin: 0;
+        background-color:black;
+        background-image: url('Bilder/Candybay0001.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .nav-bar-container{
+        width: 50%;
+        height: 5%;
+        background-color: transparent;
+        -webkit-backdrop-filter: blur(1px);
+        backdrop-filter: blur(10px);
+        position: absolute;
+        top: 1vh;
+       left: 26vw;
+       border-radius: 50px;
+       border:1px solid rgba(252, 133, 64, 0.308);
+      display:flex;
+        justify-content: space-around;
+        align-items: center;
+        overflow: hidden;
+    
+    }
+    
+    
+    
+    
+    
+    .Buttons  {
+        color:rgba(240, 215, 163, 0.699);
+        background-color:rgba(255, 255, 255, 0.048);
+    
+        border: none;
+        border-radius: 5px;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;  
+      font-size: medium;
+        cursor: pointer;
+    
+        padding-left: 4%;
+        display: inline-block;
+    
+        position: relative;
+        display:flex;
+       align-items: center;
+        width: 20%;
+        height: 70%;
+        transition: 0.7s;
+    }
+    
+    .Buttons:hover {
+        
+        box-shadow: 0 0 1px 2px  rgba(219, 147, 52, 0.993), 0 0 3px 3px  rgba(235, 95, 15, 0.993), 0 0 4px 3.5px rgba(156, 89, 182, 0.979);
+        transition: 0.2s;
+        transform: scale(105%);
+        transition: 0.6s;
+    }
+    
+    .Buttons:active{
+        transform: scale(110%);
+        transition: 0.2s;
+    }
+    
+    
+    #anmelde-button{
+        color:rgba(240, 215, 163, 0.699);
+       background-color:transparent;
+        -webkit-backdrop-filter: blur(200px);
+        backdrop-filter: blur(200px);
+        border: none;
+        border-radius: 50px;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;  
+      font-size: medium;
+        cursor: pointer;
+    
+        padding:0px 0px;
+        display: inline-block;
+    
+        position: relative;
+       align-items: center;
+        width:6%;
+        height: 4vh;
+        transition: 0.7s;
+    
+        right: -88vw;
+       
+        top: 1.5vh;
+    }
+    
+    
+    #anmelde-button:hover{
+        box-shadow: 0 0 1px 2px rgba(219, 147, 52, 0.993), 0 0 3px 3px rgba(235, 95, 15, 0.993), 0 0 4px 3.5px rgba(156, 89, 182, 0.979);
+        transition: 0.2s;
+        transform: scale(105%);
+        transition: 0.6s;
+    }
+    
+    #anmelde-button:active{
+        transform: scale(110%);
+        transition: 0.2s;
+    }
+    
+    
+    
+    
+    .animated-element{
+        width: auto;
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 2em;
+        color: white;
+        transition: transform0.5s ease-in-out;;
+    }
+    
+    
+    #anmelde-seite-container,
+    #Impressum-seite-container,
+    #Start-seite-container,
+    #Produkte-seite-container {
+        position: absolute;
+        top: 10%;
+        left: 5%;
+        width: 90vw;
+        height: 75vh;
+        background-color: rgba(255, 255, 255, 0.045);
+        -webkit-backdrop-filter: blur(8px);
+        backdrop-filter: blur(8px);
+        box-shadow: 0 -10px 10px 10px rgba(0, 0, 0, 0.377);
+        border-radius: 15px;
+        overflow: hidden;
+        z-index: 1; /* Setze den z-index auf 1 für beide Container */
+    }
+ 
+    #Start-seite-container{
+        display: flex;
+    }
+    
+    .Start-seiten-rezensionen{
+        position: absolute;
+        width:25vw;
+        height: 70vh;
+       left: 1.5vw;
+       margin-right: 2vw;
+       margin-top: 0vh;
+       border-radius: 25px;
+      background-color: transparent;
+      -webkit-backdrop-filter: blur(9px);
+      backdrop-filter: blur(9px);
+      box-shadow: -3px -8px 10px 10px rgba(0, 0, 0, 0.301);
+      overflow-x: hidden;
+      overflow-y: scroll;
+     transition: 0.8s;
+    }
+    
+    .Start-seiten-rezensionen:hover{
+        transform: scale(102%);
+        transition:0.7s
+    }
+    
+    .Start-seiten-spotlight{
+        box-shadow: 0 0 100vh 20vh rgba(196, 98, 7, 0.349);
+       
+    }
+    
+    .Start-seiten-rezensionen h1{
+        text-align: center;
+        margin-top: 5%;
+        font-size: 107%;
+    }
+    
+    .underline{
+        width: 100%;
+        height: 0.2%;
+        background-color: rgb(255, 255, 255);
+        position: absolute;
+        margin-top: 18%;
+    }
+    
+    .Start-seiten-rezensionen::-webkit-scrollbar {
+        width: 0px; 
+    }
+    
+    
+    
+    .kommentar1,
+    .kommentar2,
+    .kommentar3,
+    .kommentar4,
+    .kommentar5,
+    .kommentar6,
+    .kommentar7{
+        position: relative;
+        width:20vw;
+        height: 20%;
+        border-radius: 20px;
+        margin-top: 5%;
+        margin-left: 2.2vw;
+    background-color: rgba(255, 255, 255, 0.045);
+       -webkit-backdrop-filter: blur(5px);
+       backdrop-filter: blur(5px);
+        overflow-y: scroll;
+        overflow-x: hidden;
+    }
+    
+    ::-webkit-scrollbar {
+        width: 0px; 
+    }
+    
+    .kommentar-verfaser{
+        position: relative;
+    font-size: 20px;
+    color: rgba(245, 245, 245, 0.863);
+    text-decoration: underline;
+    left: 4%;
+    bottom: 40%;
+    }
+    
+    .kommentar-text{
+        position: absolute;
+        height: auto;
+        left: 5%;
+        top: 20%;
+    }
+    
+    
+    .start-seiten-container-angebote{
+        position: relative;
+        width: 68%;
+        height: 30%;
+       -webkit-backdrop-filter: blur(3px);
+       backdrop-filter: blur(3px);
+        border-radius: 20px;
+        left: 15%;
+        bottom: 31.8%;
+        overflow: hidden;
+        transition: 0.5s;
+    }
+
+    .start-seiten-container-angebote:hover{
+     transform: scale(102%);
+     transition: 0.5s;
+
+    }
+    
+    #Angebote-überschrift{
+        position: absolute;
+        font-size: 115%;
+        bottom: 80%;
+        left: 43%;
+        width: 12%;
+        height: 0%;
+    }
+
+    #Angebote-überschrift-50prozent{
+        position:absolute;
+        top: 35%;
+        left: 42%;
+        width: 15%;
+        color: red;
+    }
+
+    #angebot-spotlight{
+        width: 100%;
+        box-shadow: 0 0 100vh 20vh rgba(196, 51, 7, 0.267);
+    }
+    
+    #Rauschendes-Alzheimer-angebot{
+        height: 90%;
+        top: 5%;
+        left: 3%;
+        transition: 0.5s;
+    }
+
+    #Rauschendes-Alzheimer-angebot:hover{
+        transform: scale(104%);
+        transition: 0.5s;
+    }
+    
+    #angebot-bild-rauschendes-Alzheimer{
+        position:relative;
+     height: 55%;
+     width: auto;
+     left: 80%;
+     top: 7%;
+     border-radius: 10px;
+    }
+    
+    #Rauschendes-Alzheimer—title{
+        font-size: 60%;
+        top: 50%;
+        left: 55%;
+        white-space: nowrap;
+    }
+
+    #Rauschendes-Alzheimer-price{
+        position: relative;
+        right: 75%;
+        top: 31%;
+        text-decoration: line-through;
+        color: rgba(255, 0, 0, 0.774)
+    }
+
+    #Rauschendes-Alzheimer-price-new{
+        right: 63%;
+        top: 31%;
+    }
+
+    
+    #Blackout-angebot{
+        height: 90%;
+        bottom: 85%;
+        left: 60%;
+        transition: 0.5s;
+    }
+
+    #Blackout-angebot:hover{
+        transform: scale(104%);
+        transition: 0.5s;
+    }
+
+    #angebot-bild-Blackout{
+        position:relative;
+        height: 58%;
+        width: auto;
+        left: 58%;
+        top: 7%;
+        border-radius: 10px;
+    }
+
+    #Blackout-title{
+        font-size: 75%;
+        top: 45%;
+        left: 28%;
+    }
+
+    #Blackout-price{
+        position: relative;
+        top: 31%;
+        right: 53%;
+        text-decoration: line-through;
+        color: rgba(255, 0, 0, 0.774)
+    }
+    
+    #Blackout-price-new{
+        top: 31%;
+        right: 45%;
+    }
+    
+
+
+
+
+.start-seiten-container-warum-candybay{
+    position: absolute;
+    width: 67%;
+    height: 60%;
+   -webkit-backdrop-filter: blur(1px);
+   backdrop-filter: blur(1px);
+    border-radius: 20px;
+    left:31%;
+    bottom: 3%;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    transition: 0.5s;
+}
+
+.start-seiten-container-warum-candybay:hover{
+    transform: scale(103%);
+    transition: 0.5s;
+}
+
+#warum-candybay-spotlight{
+    width: 100%;
+    box-shadow: 0 0 100vh 20vh rgba(196, 51, 7, 0.555);
+}
+
+#warum-candybay-überschrift{
+    position: relative;
+    text-align: center;
+    bottom: 7%; 
+    color:rgba(255, 255, 255, 0.836);
+}
+
+#warum-candybay-überschrift-underline{
+margin-top: -9%;
+}
+
+.warum-candybay-text{
+    position: relative;
+    text-align: center;
+    left: 10%;
+    bottom: 10%;
+    width: 80%;
+}
+
+.start-seiten-container-warum-candybay::-webkit-scrollbar {
+    width:0px;
+    
+}
+
+
+
+    
+    #Produkte-seite-container::-webkit-scrollbar {
+        width:1px;
+    }
+    
+    #Produkte-seite-container{
+        overflow-y: scroll;
+    }
+    
+    .Produkt-container{
+        right:1%;
+        bottom:15%;
+        display: flex;
+        justify-content: center;
+        align-items: top;
+        position: relative;
+        width: 20vw;
+        height: 45vh;
+        overflow: hidden;
+        background-color: rgba(255, 255, 255, 0.04);
+        -webkit-backdrop-filter: blur(6px);
+        backdrop-filter: blur(6px);
+        border-radius: 20px;
+        margin-left: 2%;
+        
+    }
+    
+    .Produkt-bilder{
+        position:relative;
+        height: 40%;
+        width: auto;
+        margin-top: 6%;
+        border-radius: 5px;
+
+    }
+    
+    .Produkt-title{
+        position: relative;
+        top:35%; 
+        transform: translateX(-50%); 
+        color: rgb(255, 255, 255); 
+        font-size: 1em; 
+    
+    }
+
+    .produkt-preis{
+        position: relative;
+        font-size: 1em;
+        top: 50%;
+        right: 55%;
+    }
+    
+    .kauf-button{
+        position: absolute;
+        background-color: rgba(18, 99, 248, 0.664);
+        border-style: none;
+        width: 50%;
+        height: 10%;
+        margin-top:39.4vh;
+        margin-right:30%;
+        border-radius: 40px;
+        color: rgba(255, 255, 255, 0.863);
+        transition: 0.4s;
+    }
+    
+    .kauf-button:hover{
+      width: 51%;
+      height: 11%;
+      transition: 0.4s;
+    }
+    
+    
+    .Einkaufswagen-button{
+        position: absolute;
+        background-color: rgba(18, 99, 248, 0.664);
+        border-style: none;
+        width: 30%;
+        height: 10%;
+        margin-top:39.3vh;
+        margin-left: 60%;
+        border-radius: 40px;
+        color: rgba(255, 255, 255, 0.863);
+        font-size:35%;
+        transition: 0.4;
+    }
+    
+    .Einkaufswagen-button:hover{
+        width: 31%;
+        height: 11%;
+        transition: 0.4s;
+    }
+    
+    #Zucker-Bombe{
+    .Produkt-bilder{
+        left: 8vw;
+      }
+
+    .Produkt-title{
+        left: 13%;
+      }
+
+    .produkt-preis{
+        right: 48%;
+      }
+    }
+    
+    #Diabetes-to-go{
+        .Produkt-title{
+            right: 5%;
+        }
+
+        .Produkt-bilder{
+            left: 40%;
+        }
+
+        .produkt-preis{
+            right: 70%;
+        }
+    }
+    
+    #Flufige-Diabetes{
+
+       .Produkt-title{
+        right: 0%;
+       }
+
+       .produkt-preis{
+        right: 70%;
+       }
+     
+
+       .Produkt-bilder{
+        left: 43.2%;
+       }
+
+    }
+    
+
+    #Rauschendes-Alzheimer{
+        .Produkt-title{
+            left:12%;
+        }
+
+        .produkt-preis{
+            right: 85%;
+        }
+
+        .Produkt-bilder{
+            left: 56%;
+           }
+
+        
+    }
+    
+    
+    
+    
+    
+    #Glücklich-macher,
+    #Karies-to-go,
+    #Blackout,
+    #Radioaktive-Würmer{
+        position: absolute;
+        top:70%;
+        right: 50%;
+        
+    }
+    
+    #Glücklich-macher{
+        right: 75.5%;  
+
+        .Produkt-bilder{
+            left: 47%;
+           }
+
+           .Produkt-title{
+            right: 0%;
+           }
+
+           .produkt-preis{
+            right: 72%;
+           }
+    }
+    
+    #Karies-to-go{
+        right: 51%;
+        .Produkt-title{
+            right: 1%;
+      }
+
+      .produkt-preis{
+        right: 55%;
+      }
+
+        .Produkt-bilder{
+            left: 39%;
+           }
+    }
+    
+    #Blackout{        
+    left: 49%;
+        .Produkt-title{
+            right: 0%;
+        }
+
+        .produkt-preis{
+            right: 70%;
+        }
+
+        .Produkt-bilder{
+            left: 44.5%;
+           }
+    }
+
+
+    
+    #Radioaktive-Würmer{
+        right: 2%;
+
+        .Produkt-title{
+            left: 10%;
+        }
+
+        .produkt-preis{
+            right: 80%;
+        } 
+
+        .Produkt-bilder{
+            left: 53.5%;
+           }
+
+    }
+    
+    
+    .impressum-bild{
+        width: 80%;
+        height: auto;
+        margin: 10px 20px -30px; /* Oben: 10px, Links/Rechts: 20px, Unten: 30px */
+        border-radius: 10px;;
+    }
+    
+    .impressum-bild-container{
+     position: relative;
+     width: 20%;
+     height: 35%;
+     right: 30%;
+     top: 30%;
+    }
+    
+    .impressum-bild_container h6{
+        position: absolute;
+        margin: 0% 5% 90%;
+    }
+    
+    
+    
+    .impressum-text{
+     position: absolute;
+     font-size: 60%;
+     width: 60%;
+     height: auto;
+     bottom: 48%;
+    }
+    
+    .kleingeschribenes{
+     position: absolute;
+     font-size:35%;
+     left: 85%;
+     top: 92%;
+    }
+    
+    
+    
+    .Login{
+    
+        width: 26%;
+        height: 65%;
+        border-radius: 25px; 
+       border: 1px solid rgba(255, 255, 255, 0.404);
+       background: rgba(255, 95, 2, 0.151);
+       -webkit-backdrop-filter: blur(15px);
+       backdrop-filter: blur(15px);
+       box-shadow: 0 0 10px rgba(0,0,0,.2);
+      
+    
+       
+    }
+    
+    .Login h1{
+        position: relative;
+        text-align: center;
+        bottom: 5%;
+    }
+    
+    .input-box{
+        height: 50px;
+        margin: 25px;
+        
+    }
+    .input-box{
+        text-align: center;
+        
+    }
+    
+    .input-box input{
+        width: 100%;
+        height:100%;
+        text-align: center;
+        font-size: 65%;
+        
+        border-radius: 50px;
+        border-style: none;
+        border:  1px solid rgba(255, 255, 255, 0.452);
+    
+        background-color: transparent;
+        -webkit-backdrop-filter: blur(50px);
+        backdrop-filter: blur(50px);
+    }
+    
+    .input-box input::placeholder{
+        color: rgba(255, 255, 255, 0.849);
+    }
+    
+    
+    #login-bestätigungs-button{
+     position:relative;
+     left: 32%;
+     top:29%;
+     font-size: 15px;
+     justify-content: center;
+     width:40%;
+     height: 10%;
+     padding:0px 0px;
+     border-radius: 50px;
+    }
+  }
